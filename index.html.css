@@ -1,0 +1,49 @@
+@charset "utf-8";
+.body1 {
+      background-image: url("Asset/landing%20page%20idle.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.body2 {
+    background-color: #FFF5DF;
+}
+
+.kotak {
+    background-color: #FF0004;
+    color: #FF0004;
+    width: 198px;
+    height: 527px;
+    margin-left: 264px;
+    margin-top: 262px;
+    opacity: 0;
+}
+
+#videocontainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(Asset/bg.png);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#videocontainer video{
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+#box {
+    cursor: pointer;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
